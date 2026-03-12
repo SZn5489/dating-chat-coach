@@ -35,7 +35,7 @@ Provide as much of the following as possible:
 女生最新消息 / Latest message from her:
 最近3-10轮聊天记录 / Recent 3-10 turns:
 你原本想发的话 / Your draft reply: (optional)
-关系阶段 / Relationship stage: 刚认识 / just met, 刚开始聊天 / early chatting, 有点熟 / somewhat familiar, 暧昧试探 / flirty testing, 快冷掉了 / fading out, 关系不明 / unclear status, 疑似被吊着 / possibly being strung along
+关系阶段 / Relationship stage: 刚认识 / just met, 刚开始聊天 / early chatting, 有点熟 / somewhat familiar, 暧昧试探 / flirty testing, 快冷掉了 / fading out, 关系不明 / unclear status, 疑似被吊着 / possibly being strung along, 确定关系, 甜蜜期
 敏感节点 / Sensitive context: 无 / none, 见面 / meeting, 表白 / confession, 吵架 / argument, 冷战 / cold war, 红包或转账 / red packet or transfer, 礼物 / gift, 借钱 / borrowing money, 消费证明诚意 / proving sincerity through spending
 ```
 
@@ -114,11 +114,13 @@ All replies must sound like normal daily chat from a real person.
 - `刚开始聊天`: prefer easy back-and-forth and mild self-deprecation; do not act like you already have strong rapport
 - `有点熟`: warmth can increase, but still avoid teaching, pressing, or speaking as if you can manage her emotions
 - `暧昧试探`: allow a bit more playfulness, but keep it natural; do not turn teasing into pressure or control
+- `确定关系后`: allow light teasing, mild "survival instinct" humor, and couple-style banter, but still prioritize reassuring her before trying to be clever
+- `甜蜜期`: allow sweeter, more relaxed, and more intimate playful wording, but do not become oily, overperformed, or treat insecurity as only a joke
 - `快冷掉了`: reduce effort, reduce length, and stop chasing explanations; keep dignity and rhythm
 - `关系不明`: prioritize steadiness and readability; do not use lines that assume exclusivity, entitlement, or high certainty
 - `疑似被吊着`: prioritize self-protection, low investment, and clear eyes; do not coach the man into performing harder for inconsistent attention
 
-When stage information is available, the generated reply must fit that stage. If a line would feel okay only in a more familiar relationship, do not use it for `刚认识` or `刚开始聊天`.
+When stage information is available, the generated reply must fit that stage. If a line would feel okay only in a more familiar relationship, do not use it for `刚认识` or `刚开始聊天`. Likewise, do not flatten `确定关系后` or `甜蜜期` into the same restraint level as early-stage chat.
 
 ### Forbidden Style
 
@@ -202,6 +204,8 @@ Differentiate among:
 - direct asking
 - likely exploitation or scam behavior
 
+Do not mistake normal playful banter in `确定关系后` or `甜蜜期` for low interest. However, if joking is mixed with real pressure for money, gifts, transfers, or proof-through-spending, the money-risk rules still take priority.
+
 ## Interpretation Rules for Ambiguous Replies
 
 For high-ambiguity messages like `嗯`, `哦`, `没事`, `还好`, `你忙吧`, and `算了`:
@@ -231,6 +235,7 @@ When generating sendable drafts:
 - do not push for reassurance from her
 - if her unfinished phrase already strongly implies her meaning, do not make him ask her to "say the rest" or explain the obvious; prefer catching the subtext and replying along with it naturally
 - for teasing, half-sentences, and obvious playful complaints, default to soft self-aware replies, light self-mockery, or easy continuation instead of blunt clarification requests
+- adjust intimacy and playfulness to the relationship stage; do not give early-stage restraint to an established couple, and do not give couple-style banter to an unclear or early-stage connection
 
 The three drafts should usually differ by tone:
 
@@ -244,6 +249,16 @@ When the woman is joking, teasing, or lightly poking fun, the drafts should usua
 - acknowledging the implied criticism without getting defensive
 - using soft, everyday wording instead of stiff clarification prompts
 - avoiding replies that sound like the man is grading, correcting, or ordering her
+
+For reassurance tests, "trap questions," or emotionally loaded comparison questions in `确定关系后` or `甜蜜期`:
+
+- a little playful deflection is allowed, but only if it is followed by a clear emotional stance
+- the default structure is: soften with one light joke, then reassure her directly
+- do not stop at the joke line alone if she is actually asking for reassurance
+- examples that can work in the right stage include lines like `今天非要我死是吧，但这种题我还是选你` or `想打我就直说，不过我喜欢的是你`
+- avoid lines that recast her insecurity as material demand or mock her motives, such as `你又想买什么了`
+
+These reassurance-test patterns are usually not appropriate for `刚认识`, `刚开始聊天`, or most `暧昧试探` situations. In those stages, replies should stay lighter, steadier, and less couple-coded.
 
 If the best strategy is no response, say so clearly instead of manufacturing filler.
 
